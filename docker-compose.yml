@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  floci:
+    image: floci/floci:latest
+    container_name: floci_aws_emulator
+    ports:
+      - "4566:4566"
+    volumes:
+      - ./floci-data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock
