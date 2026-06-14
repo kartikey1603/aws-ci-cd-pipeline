@@ -26,7 +26,7 @@ aws-ci-cd-pipeline/
 ├── app.py                 # The core Python web application
 ├── deploy_pipeline.sh     # The CI/CD automation script
 └── .gitignore             # Prevents committing emulator data to version control
-
+```
 ##  Step-by-Step Execution Guide
 
 ### Step 1: Start the AWS Emulator
